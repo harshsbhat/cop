@@ -6,6 +6,31 @@
     display: none;
 }
 
+.stick {
+    position: fixed;
+    right: 0px;
+    bottom: 172px;
+
+
+}
+
+.stick2 {
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+}
+
+
+.stick img {
+    width: 80px;
+    height: 80px;
+}
+
+.stick2 img {
+    width: 80px;
+    height: 80px;
+}
+
 @media (max-width: 1200px) {
     .pc {
         display: none;
@@ -13,5 +38,14 @@
 
     .mobile {
         display: block;
+    }
+
+    .stick img {
+        width: 60px;
+        height: 60px;
+    }
+    .stick2 img {
+        width: 60px;
+        height: 60px;
     }
 }
