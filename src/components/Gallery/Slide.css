@@ -1,0 +1,43 @@
+.Slide img {
+    margin: 50px;
+    width: 350px;
+    height: 350px;
+    border: #C69B3C solid 2px;
+}
+
+.Slide {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1250px) {
+    .Slide img {
+        margin: 50px;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 950px) {
+    .Slide img {
+        margin: 50px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 810px) {
+    .Slide img {
+        margin: 25px;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Slide img {
+        margin: 25px;
+        width: 100px;
+        height: 100px;
+    }
+}

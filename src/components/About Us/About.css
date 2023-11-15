@@ -1,0 +1,57 @@
+.About {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.aboutText hr {
+    margin-top: 25px;
+    border-radius: 3px solid #C69B3C;
+    margin-bottom: 0px;
+    color: rgb(198, 155, 60);
+    background-color: rgb(198, 155, 60);
+    height: 2px;
+    border-color: rgb(198, 155, 60);
+    border-radius: 2px solid #C69B3C;
+    margin-top: -18px;
+    width: 200px;
+}
+
+.aboutText p {
+    margin: 50px;
+    color: #010000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.aboutText h1 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #405410;
+    text-align: center;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+@media  (max-width: 600px) {
+    .About h1 {
+        font-size: 20px;
+    }
+
+    .About p {
+        font-size: 12px;
+    }
+
+    .aboutText hr {
+        width: 100px;
+        margin-bottom: 0px;
+    }
+
+}

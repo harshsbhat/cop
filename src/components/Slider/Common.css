@@ -1,0 +1,106 @@
+
+
+.Slider {
+    background-color: #405410;
+    
+}
+
+.MySlides {
+    margin-bottom: 10px;
+}
+.Acc img {
+    height: 200px;
+    margin: 10px;
+    margin-top: 50px;
+}
+.right {
+    margin-right: 30px;
+}
+
+.Acc h2 {
+
+    color: white;
+    text-align: center;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.Acc p {
+    margin: 50px;
+    margin-top: 10px;
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Acc {
+    display: flex;
+    border: #C69B3C solid 2px;
+    padding: 0px;
+    margin: 50px;
+    
+}
+
+.photo img {
+    height: 350px;
+}
+
+.trek img {
+    width: 250px;
+}
+
+.small img {
+    height: 250px;
+    width: 250px;
+}
+
+
+@media  (max-width: 900px) {
+    .Acc {
+        flex-direction: column-reverse;
+        border: none;
+    }
+    .Acc {
+        margin-top: 0px;
+    }
+    .Acc h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .Acc p {
+        font-weight: lighter;
+        font-size: 8px;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+
+    .Acc img {
+        margin-bottom: 10px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+    }
+    .right img {
+        display: none;
+    }
+
+    .Slider {
+        height: auto;
+      }
+
+
+}

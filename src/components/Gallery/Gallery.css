@@ -1,0 +1,40 @@
+.Gallery {
+    background-color: #405410;
+}
+
+.Gallery h2 {
+    padding-top: 15px;
+    color: #C69B3C;
+    text-align: center;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Gallery hr {
+
+    border-radius: 3px solid #C69B3C;
+    margin-bottom: 0px;
+    color: rgb(211, 152, 23);
+    background-color: rgb(174, 137, 57);
+    height: 2px;
+    border-color: rgb(198, 155, 60);
+    border-radius: 2px solid #C69B3C;
+    width: 200px;
+    margin-top: -25px;
+}
+
+@media (max-width: 605px) {
+    .Gallery h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .Gallery hr {
+        width: 100px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+}

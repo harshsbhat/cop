@@ -1,0 +1,76 @@
+iframe {
+    width: 690px;
+    height: 498px;
+    border: #C69B3C solid 5px;
+}
+
+.Head hr {
+    margin-top: 20px;
+    border-radius: 3px solid #C69B3C;
+    margin-bottom: 0px;
+    color: rgb(211, 152, 23);
+    background-color: rgb(174, 137, 57);
+    height: 2px;
+    border-color: rgb(198, 155, 60);
+    border-radius: 2px solid #C69B3C;
+    margin-top: -34px;
+    width: 200px;
+    margin-bottom: 60px;
+}
+
+.Map {
+    margin: 40px;
+    display: flex;
+}
+
+.mapText {
+    margin-bottom: auto;
+}
+
+.mapFrame {
+    margin: 10px;
+}
+
+.Head h2 {
+    text-align: center;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #405410;
+    font-family: 'Abhaya Libre';
+
+}
+.subhead {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.link {
+    color: #405410;
+}
+.mapText p {
+    text-align: center;
+    margin: 30px;
+}
+
+.mapText img  {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+.mapText button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

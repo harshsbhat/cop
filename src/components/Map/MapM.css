@@ -1,0 +1,49 @@
+.mapContentM iframe {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-top: 30px;
+    border-bottom-width: 150px;
+    margin-bottom: 10px;
+}
+
+.mapTextM {
+    position: relative;
+    top: -125px;
+}
+
+
+.mapContentM h2 {
+    color: #405410;
+    font-size: 18px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.subhead p {
+    color: white;
+}
+
+.mapContentM p{
+    font-size: 8px;
+}
+
+.mapContentM hr {
+
+    border-radius: 3px solid #C69B3C;
+    margin-bottom: 0px;
+    color: rgb(211, 152, 23);
+    background-color: rgb(174, 137, 57);
+    height: 2px;
+    border-color: rgb(198, 155, 60);
+    border-radius: 2px solid #C69B3C;
+
+    width: 150px;
+
+}
+.mapContentM {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,171 @@
+* {
+  font-weight: 500;
+}
+
+.Nav a  {
+  cursor: pointer;
+}
+
+.Nav button {
+  cursor: pointer;
+}
+
+.topnav {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-weight: 500;
+    margin: 15px;
+    margin-top: 68px;
+    width: 100px;
+    float: left;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 90px;
+  }
+  
+  /* Change the color of links on hover */
+
+  
+  /* Add a color to the active/current link */
+  /* .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+  }
+  
+  .topnav-left {
+    float: left;
+  }
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+
+
+  .topnav-centered img {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    background-color: #405410;
+    width: 88.78px;
+    height: 35.25px;
+    color: #C69B3C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 4px;
+    
+  }
+
+.topnav-right img {
+    width: 30px;
+    height: 30px;
+}
+
+
+hr {
+    border-radius: 2px solid #C69B3C;;
+}
+
+
+/* RESPONSIVE CODE */
+
+
+
+@media screen and (max-width: 1400px) {
+  .block {
+    display: none;
+  }
+
+  .topnav-centered a {
+    left: 5%;
+  }
+
+.topnav a {
+  width: 40px;
+}
+
+
+}
+
+.vertical {
+  font-family: 'Inter';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100%;
+}
+
+.vertical  ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+.vertical  li a {
+    display: block;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+.vertical li a:hover {
+    color: #C69B3C;
+  }
+
+  .vertical img {
+    float: right;
+    display: inline;
+    width: 15px;
+    height: 15px;
+  }
+
+  .close {
+    transition: opacity 2000ms, display 2000ms;
+    display: none;
+  }
+

@@ -1,0 +1,93 @@
+.Hero {
+    background-image: url('./Rectangle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height:129vh;
+}
+
+.header h1 {
+    margin-top: 0px;
+    color: #405410;
+    text-align: center;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header p {
+    color: #575555;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header button {
+    width: 234px;
+    height: 47.5px;
+    color: #C69B3C;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.HeroMain hr {
+    margin-top: 0px;
+    border-radius: 3px solid #C69B3C;
+    margin-bottom: 0px;
+    color: rgb(198, 155, 60);
+    background-color: rgb(198, 155, 60);
+    height: 2px;
+    border-color: rgb(198, 155, 60);
+}
+
+
+.header {
+    padding-top:250px
+}
+ 
+.whatsAppImg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+@media  (max-width: 600px) {
+    .Hero {
+        background-image: url('./Rectangle.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+    .header {
+        padding-top: 40px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 12px;
+    }
+
+    .header button {
+        font-size: 12px;
+        width: 150px;
+        height: 30px;
+    }
+}
