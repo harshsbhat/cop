@@ -1,8 +1,14 @@
 import './Map.css';
 import myMap from './myMap.png'
 
+
 function Map() {
+    const redirectToPhoneNumber = () => {
+        // Redirect to the phone number
+        window.location.href = 'tel:7774003585';
+      };
     return (
+        
         <div className='Head' id = 'map'>
 
         <div className="Map">
@@ -34,7 +40,7 @@ function Map() {
             </p>
 
             
-            <button>Contact us</button>
+            <button onClick={() => redirectToPhoneNumber()}>Contact us</button>
         </div>
         </div>
         </div>

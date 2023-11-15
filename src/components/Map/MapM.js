@@ -30,6 +30,7 @@ function MapM() {
                                 </div>
                                 <div className='link'> 
                                 <p>
+                                <a href="https://www.google.com/maps/place/OYO+73669+crown+of+panshet/@18.3607847,73.6026248,16.75z/data=!4m6!3m5!1s0x3bc29a32a9d392c1:0xf9034c936b35384d!8m2!3d18.358301!4d73.606993!16s%2Fg%2F11g8djv29_?entry=ttu" target="_blank" rel="noopener noreferrer"></a>
                                 https://www.google.com/maps/place/<br />OYO+73669+crown+of+panshet/<br />@18.3607847,73.6026248,16.75z/data=!4m6!3m5!1s0x3bc29a32a9d<br />392c1:0xf9034c936b35384d!8m2!3d18.358301!4d73.606993!16s<br />%2Fg%2F11g8djv29_?entry=ttu
                                 </p>
                             </div>
