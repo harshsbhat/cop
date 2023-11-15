@@ -11,8 +11,20 @@
     width: 200px;
 }
 
+.Arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.Arrows img {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+
 .Slider {
-  height: 700px;
+  height: 750px;
 }
 
 .Slider h1 {

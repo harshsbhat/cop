@@ -15,21 +15,15 @@ function Nav() {
     const section = document.getElementById(sectionId);
   
     if (section) {
-      if (window.innerWidth <= 1200) {
-        if (sectionId === 'contactus') {
-          // Redirect to the phone number for mobile
-          window.location.href = 'tel:7774003585';
-        } else {
-          // Redirect to mobile version for other sections
-          window.location.href = `#${sectionId}M`;
-        }
-      } else {
-        // Scroll to section for larger screens
+      if (window.innerWidth <= 1200 && (sectionId === 'gallery' || sectionId === 'map')) {
+        window.location.href = `#${sectionId}M`;
+      } 
+      else {
+        window.location.href = `#${sectionId}`;
         section.scrollIntoView({ behavior: 'smooth' });
       }
     }
   };
-  
     const closeNav = () => {
       const verticalNav = document.getElementById('vertical');
       if (verticalNav) {
@@ -88,7 +82,7 @@ function Nav() {
         <div id="vertical" className="vertical close">
           <ul>
             <li>
-              <a className="div1 res close" onClick={closeNav} href="#">
+              <a className="div1 res close " onClick={closeNav} href="#">
                 <img src={close} alt="Close Navigation" />
               </a>
             </li>

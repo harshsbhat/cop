@@ -15,12 +15,12 @@ function Acc() {
 
         {/* PHOTO  */}
         <div className='photo small'>
-        <img src={AccImage} />
+        <img src={Acc2Image} />
         </div>
 
         {/*PHOTO 2*/}
         <div className='photo right small'>
-        <img src={Acc2Image} />
+        <img src={AccImage} />
         </div>
 
       </div>
